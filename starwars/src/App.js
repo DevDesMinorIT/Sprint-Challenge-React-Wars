@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
-
-const App = () => {
+// import { Button } from 'reactstrap';
+import Character from './components/Character';
+const App = (props) => {
   // Try to think through what state you'll need for this app before starting. Then build out
   // the state properties here.
 
@@ -12,6 +13,7 @@ const App = () => {
   return (
     <div className="App">
       <h1 className="Header">Characters</h1>
+      <Character />
     </div>
   );
 }
