@@ -7,10 +7,7 @@ import CharacterList from './characterList';
 
 const Character = (props) => {
     const[character, setCharacter] = useState([]);
-    // const [luke, setLuke] = useState([]);
-    // const [leia, setLeia] = useState([]);
-    // const [vadar, setVadar] = useState([]);
-    // const [c3po, setC3po] = useState([])
+    
     useEffect(() => {
         axios
         .get('https://swapi.py4e.com/api/people/')
