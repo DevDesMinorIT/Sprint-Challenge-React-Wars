@@ -23,7 +23,7 @@ const Character = (props) => {
     return(
         character.map(char => {
         return (
-            <CharacterList character={character} />
+            <CharacterList character={char} />
         
         ) 
         }))

@@ -3,9 +3,24 @@
 }
 .Header {
   color: #443e3e;
+  font-family: 'Impact';
+  font-size: 350%;
   text-shadow: 1px 1px 5px #fff;
 }
 .bgcolor {
   background-color: #b1633f;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card {
+  margin: 0.25em;
+  color: #cba882
+}
+h1 {
+  color: #443e3e;
 }
 /* write your parent styles in here for your App.js */
